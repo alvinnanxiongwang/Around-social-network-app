@@ -1,0 +1,302 @@
+[Info  - 4:12:50 PM] 2022/05/07 16:12:50 go env for /home/nanxiong026
+(root /home/nanxiong026/go/src/around)
+(go version go version go1.18.1 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GO111MODULE=
+GOPROXY=https://proxy.golang.org,direct
+GOROOT=/usr/lib/go-1.18
+GOPATH=/home/nanxiong026/go
+GOSUMDB=sum.golang.org
+GOWORK=
+GOFLAGS=
+GOMODCACHE=/home/nanxiong026/go/pkg/mod
+GONOPROXY=
+GOMOD=/dev/null
+GOINSECURE=
+GONOSUMDB=
+GOPRIVATE=
+GOCACHE=/home/nanxiong026/.cache/go-build
+
+
+[Info  - 4:12:55 PM] 2022/05/07 16:12:51 go/packages.Load
+	snapshot=0
+	directory=/home/nanxiong026/go/src/around
+	query=[around/... builtin]
+	packages=2
+
+[Info  - 4:12:55 PM] 2022/05/07 16:12:52 falling back to safe trimming due to type errors: [/usr/lib/go-1.18/src/runtime/vdso_linux.go:53:38: invalid operation: division by zero /usr/lib/go-1.18/src/runtime/vdso_linux.go:54:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 4:13:25 PM] 2022/05/07 16:13:25 background imports cache refresh starting
+
+[Info  - 4:13:25 PM] 2022/05/07 16:13:25 background refresh finished after 55.335873ms
+
+[Info  - 4:18:03 PM] 2022/05/07 16:17:57 go/packages.Load
+	snapshot=11
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp_test.go]
+	packages=1
+
+[Info  - 4:18:03 PM] 2022/05/07 16:17:57 go/packages.Load
+	snapshot=11
+	package="command-line-arguments [command-line-arguments.test]"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp_test.go]
+
+[Info  - 4:18:03 PM] 2022/05/07 16:17:57 reloadOrphanedFiles reloading
+	query=[file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_httpserver_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/bench_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_authentication_middleware_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_cors_method_middleware_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/old_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_route_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go]
+
+[Info  - 4:18:04 PM] 2022/05/07 16:18:04 go/packages.Load
+	snapshot=12
+	directory=/home/nanxiong026/go/src/around
+	query=[around/... builtin]
+	packages=2
+
+[Info  - 4:18:04 PM] 2022/05/07 16:18:04 reloadOrphanedFiles reloading
+	query=[file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/old_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/bench_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_route_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_authentication_middleware_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_cors_method_middleware_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_httpserver_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_test.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go file:///home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp_test.go]
+
+[Info  - 4:18:08 PM] 2022/05/07 16:18:08 go/packages.Load
+	snapshot=12
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/bench_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_authentication_middleware_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_cors_method_middleware_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_route_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_httpserver_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/old_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp_test.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go file=/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go]
+	packages=3
+
+[Info  - 4:18:08 PM] 2022/05/07 16:18:08 go/packages.Load
+	snapshot=12
+	package="github.com/gorilla/mux [github.com/gorilla/mux.test]"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/bench_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_httpserver_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/old_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp_test.go]
+
+[Info  - 4:18:08 PM] 2022/05/07 16:18:08 go/packages.Load
+	snapshot=12
+	package="github.com/gorilla/mux"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go]
+
+[Info  - 4:18:08 PM] 2022/05/07 16:18:08 go/packages.Load
+	snapshot=12
+	package="github.com/gorilla/mux_test [github.com/gorilla/mux.test]"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_authentication_middleware_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_cors_method_middleware_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_route_test.go]
+
+[Info  - 4:18:08 PM] 2022/05/07 16:18:08 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Error - 4:21:13 PM] 2022/05/07 16:21:13 DocumentSymbols failed: getting file for DocumentSymbols: no packages for non-Go file file:///home/nanxiong026/go/src/around/go.mod (go.mod)
+	URI=file:///home/nanxiong026/go/src/around/go.mod
+
+[Error - 4:21:22 PM] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Error - 4:21:22 PM] 2022/05/07 16:21:22 DocumentSymbols failed: getting file for DocumentSymbols: no packages for non-Go file file:///home/nanxiong026/go/src/around/go.sum (go.sum)
+	URI=file:///home/nanxiong026/go/src/around/go.sum
+
+[Info  - 4:21:23 PM] 2022/05/07 16:21:23 go/packages.Load
+	snapshot=24
+	directory=/home/nanxiong026/go/src/around
+	query=[around/... builtin]
+	packages=2
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	directory=/home/nanxiong026/go/src/around
+	query=[github.com/gorilla/mux net runtime/cgo]
+	packages=11
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="runtime/cgo"
+	files=[/home/nanxiong026/.cache/go-build/6c/6c043be568fc81bc9d80c45e9f371fbcaf924357b5c9b4b4fa0af948dcf7d65d-d /usr/lib/go-1.18/src/runtime/cgo/callbacks.go /usr/lib/go-1.18/src/runtime/cgo/callbacks_traceback.go /usr/lib/go-1.18/src/runtime/cgo/handle.go /usr/lib/go-1.18/src/runtime/cgo/iscgo.go /usr/lib/go-1.18/src/runtime/cgo/linux.go /usr/lib/go-1.18/src/runtime/cgo/mmap.go /usr/lib/go-1.18/src/runtime/cgo/setenv.go /usr/lib/go-1.18/src/runtime/cgo/sigaction.go /usr/lib/go-1.18/src/runtime/cgo/cgo.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="net"
+	files=[/home/nanxiong026/.cache/go-build/9f/9f1d3a93b89b11393a57bf07a90273582641ac744d673b213b5b5bb7036be168-d /usr/lib/go-1.18/src/net/addrselect.go /usr/lib/go-1.18/src/net/conf.go /usr/lib/go-1.18/src/net/dial.go /usr/lib/go-1.18/src/net/dnsclient.go /usr/lib/go-1.18/src/net/dnsclient_unix.go /usr/lib/go-1.18/src/net/dnsconfig_unix.go /usr/lib/go-1.18/src/net/error_posix.go /usr/lib/go-1.18/src/net/error_unix.go /usr/lib/go-1.18/src/net/fd_posix.go /usr/lib/go-1.18/src/net/fd_unix.go /usr/lib/go-1.18/src/net/file.go /usr/lib/go-1.18/src/net/file_unix.go /usr/lib/go-1.18/src/net/hook.go /usr/lib/go-1.18/src/net/hook_unix.go /usr/lib/go-1.18/src/net/hosts.go /usr/lib/go-1.18/src/net/interface.go /usr/lib/go-1.18/src/net/interface_linux.go /usr/lib/go-1.18/src/net/ip.go /usr/lib/go-1.18/src/net/iprawsock.go /usr/lib/go-1.18/src/net/iprawsock_posix.go /usr/lib/go-1.18/src/net/ipsock.go /usr/lib/go-1.18/src/net/ipsock_posix.go /usr/lib/go-1.18/src/net/lookup.go /usr/lib/go-1.18/src/net/lookup_unix.go /usr/lib/go-1.18/src/net/mac.go /usr/lib/go-1.18/src/net/net.go /usr/lib/go-1.18/src/net/nss.go /usr/lib/go-1.18/src/net/parse.go /usr/lib/go-1.18/src/net/pipe.go /usr/lib/go-1.18/src/net/port.go /usr/lib/go-1.18/src/net/port_unix.go /usr/lib/go-1.18/src/net/rawconn.go /usr/lib/go-1.18/src/net/sendfile_linux.go /usr/lib/go-1.18/src/net/sock_cloexec.go /usr/lib/go-1.18/src/net/sock_linux.go /usr/lib/go-1.18/src/net/sock_posix.go /usr/lib/go-1.18/src/net/sockaddr_posix.go /usr/lib/go-1.18/src/net/sockopt_linux.go /usr/lib/go-1.18/src/net/sockopt_posix.go /usr/lib/go-1.18/src/net/sockoptip_linux.go /usr/lib/go-1.18/src/net/sockoptip_posix.go /usr/lib/go-1.18/src/net/splice_linux.go /usr/lib/go-1.18/src/net/tcpsock.go /usr/lib/go-1.18/src/net/tcpsock_posix.go /usr/lib/go-1.18/src/net/tcpsockopt_posix.go /usr/lib/go-1.18/src/net/tcpsockopt_unix.go /usr/lib/go-1.18/src/net/udpsock.go /usr/lib/go-1.18/src/net/udpsock_posix.go /usr/lib/go-1.18/src/net/unixsock.go /usr/lib/go-1.18/src/net/unixsock_posix.go /usr/lib/go-1.18/src/net/unixsock_readmsg_cmsg_cloexec.go /usr/lib/go-1.18/src/net/writev_unix.go /usr/lib/go-1.18/src/net/cgo_linux.go /usr/lib/go-1.18/src/net/cgo_resnew.go /usr/lib/go-1.18/src/net/cgo_socknew.go /usr/lib/go-1.18/src/net/cgo_unix.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="github.com/gorilla/mux"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="github.com/gorilla/mux [github.com/gorilla/mux.test]"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/doc.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/route.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/test_helpers.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/bench_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/middleware_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_httpserver_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/mux_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/old_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/regexp_test.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="github.com/gorilla/mux_test [github.com/gorilla/mux.test]"
+	files=[/home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_authentication_middleware_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_cors_method_middleware_test.go /home/nanxiong026/go/pkg/mod/github.com/gorilla/mux@v1.8.0/example_route_test.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="github.com/gorilla/mux.test"
+	files=[/home/nanxiong026/.cache/go-build/09/091e41d1105b671c76703ba90f8d1c15add98bfed91ed9b82e88590dd02f6aa4-d]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="net [net.test]"
+	files=[/home/nanxiong026/.cache/go-build/9f/9f1d3a93b89b11393a57bf07a90273582641ac744d673b213b5b5bb7036be168-d /usr/lib/go-1.18/src/net/addrselect.go /usr/lib/go-1.18/src/net/conf.go /usr/lib/go-1.18/src/net/dial.go /usr/lib/go-1.18/src/net/dnsclient.go /usr/lib/go-1.18/src/net/dnsclient_unix.go /usr/lib/go-1.18/src/net/dnsconfig_unix.go /usr/lib/go-1.18/src/net/error_posix.go /usr/lib/go-1.18/src/net/error_unix.go /usr/lib/go-1.18/src/net/fd_posix.go /usr/lib/go-1.18/src/net/fd_unix.go /usr/lib/go-1.18/src/net/file.go /usr/lib/go-1.18/src/net/file_unix.go /usr/lib/go-1.18/src/net/hook.go /usr/lib/go-1.18/src/net/hook_unix.go /usr/lib/go-1.18/src/net/hosts.go /usr/lib/go-1.18/src/net/interface.go /usr/lib/go-1.18/src/net/interface_linux.go /usr/lib/go-1.18/src/net/ip.go /usr/lib/go-1.18/src/net/iprawsock.go /usr/lib/go-1.18/src/net/iprawsock_posix.go /usr/lib/go-1.18/src/net/ipsock.go /usr/lib/go-1.18/src/net/ipsock_posix.go /usr/lib/go-1.18/src/net/lookup.go /usr/lib/go-1.18/src/net/lookup_unix.go /usr/lib/go-1.18/src/net/mac.go /usr/lib/go-1.18/src/net/net.go /usr/lib/go-1.18/src/net/nss.go /usr/lib/go-1.18/src/net/parse.go /usr/lib/go-1.18/src/net/pipe.go /usr/lib/go-1.18/src/net/port.go /usr/lib/go-1.18/src/net/port_unix.go /usr/lib/go-1.18/src/net/rawconn.go /usr/lib/go-1.18/src/net/sendfile_linux.go /usr/lib/go-1.18/src/net/sock_cloexec.go /usr/lib/go-1.18/src/net/sock_linux.go /usr/lib/go-1.18/src/net/sock_posix.go /usr/lib/go-1.18/src/net/sockaddr_posix.go /usr/lib/go-1.18/src/net/sockopt_linux.go /usr/lib/go-1.18/src/net/sockopt_posix.go /usr/lib/go-1.18/src/net/sockoptip_linux.go /usr/lib/go-1.18/src/net/sockoptip_posix.go /usr/lib/go-1.18/src/net/splice_linux.go /usr/lib/go-1.18/src/net/tcpsock.go /usr/lib/go-1.18/src/net/tcpsock_posix.go /usr/lib/go-1.18/src/net/tcpsockopt_posix.go /usr/lib/go-1.18/src/net/tcpsockopt_unix.go /usr/lib/go-1.18/src/net/udpsock.go /usr/lib/go-1.18/src/net/udpsock_posix.go /usr/lib/go-1.18/src/net/unixsock.go /usr/lib/go-1.18/src/net/unixsock_posix.go /usr/lib/go-1.18/src/net/unixsock_readmsg_cmsg_cloexec.go /usr/lib/go-1.18/src/net/writev_unix.go /usr/lib/go-1.18/src/net/addrselect_test.go /usr/lib/go-1.18/src/net/cgo_unix_test.go /usr/lib/go-1.18/src/net/conf_test.go /usr/lib/go-1.18/src/net/conn_test.go /usr/lib/go-1.18/src/net/dial_test.go /usr/lib/go-1.18/src/net/dial_unix_test.go /usr/lib/go-1.18/src/net/dnsclient_test.go /usr/lib/go-1.18/src/net/dnsclient_unix_test.go /usr/lib/go-1.18/src/net/dnsconfig_unix_test.go /usr/lib/go-1.18/src/net/dnsname_test.go /usr/lib/go-1.18/src/net/error_posix_test.go /usr/lib/go-1.18/src/net/error_test.go /usr/lib/go-1.18/src/net/error_unix_test.go /usr/lib/go-1.18/src/net/external_test.go /usr/lib/go-1.18/src/net/fcntl_syscall_test.go /usr/lib/go-1.18/src/net/file_test.go /usr/lib/go-1.18/src/net/hosts_test.go /usr/lib/go-1.18/src/net/interface_linux_test.go /usr/lib/go-1.18/src/net/interface_test.go /usr/lib/go-1.18/src/net/interface_unix_test.go /usr/lib/go-1.18/src/net/ip_test.go /usr/lib/go-1.18/src/net/iprawsock_test.go /usr/lib/go-1.18/src/net/ipsock_test.go /usr/lib/go-1.18/src/net/listen_test.go /usr/lib/go-1.18/src/net/lookup_test.go /usr/lib/go-1.18/src/net/mac_test.go /usr/lib/go-1.18/src/net/main_cloexec_test.go /usr/lib/go-1.18/src/net/main_conf_test.go /usr/lib/go-1.18/src/net/main_posix_test.go /usr/lib/go-1.18/src/net/main_test.go /usr/lib/go-1.18/src/net/main_unix_test.go /usr/lib/go-1.18/src/net/mockserver_test.go /usr/lib/go-1.18/src/net/net_test.go /usr/lib/go-1.18/src/net/nss_test.go /usr/lib/go-1.18/src/net/packetconn_test.go /usr/lib/go-1.18/src/net/parse_test.go /usr/lib/go-1.18/src/net/platform_test.go /usr/lib/go-1.18/src/net/port_test.go /usr/lib/go-1.18/src/net/protoconn_test.go /usr/lib/go-1.18/src/net/rawconn_test.go /usr/lib/go-1.18/src/net/rawconn_unix_test.go /usr/lib/go-1.18/src/net/sendfile_test.go /usr/lib/go-1.18/src/net/server_test.go /usr/lib/go-1.18/src/net/sock_linux_test.go /usr/lib/go-1.18/src/net/splice_test.go /usr/lib/go-1.18/src/net/tcpsock_test.go /usr/lib/go-1.18/src/net/tcpsock_unix_test.go /usr/lib/go-1.18/src/net/timeout_test.go /usr/lib/go-1.18/src/net/udpsock_test.go /usr/lib/go-1.18/src/net/unixsock_linux_test.go /usr/lib/go-1.18/src/net/unixsock_readmsg_test.go /usr/lib/go-1.18/src/net/unixsock_test.go /usr/lib/go-1.18/src/net/write_unix_test.go /usr/lib/go-1.18/src/net/writev_test.go /usr/lib/go-1.18/src/net/cgo_linux.go /usr/lib/go-1.18/src/net/cgo_resnew.go /usr/lib/go-1.18/src/net/cgo_socknew.go /usr/lib/go-1.18/src/net/cgo_unix.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="net_test [net.test]"
+	files=[/usr/lib/go-1.18/src/net/example_test.go /usr/lib/go-1.18/src/net/pipe_test.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="net.test"
+	files=[/home/nanxiong026/.cache/go-build/20/203ada442066868aaa3382d7fad4f3e5176fb47134869de2854fe4ca6bfcaa97-d]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="runtime/cgo [runtime/cgo.test]"
+	files=[/home/nanxiong026/.cache/go-build/6c/6c043be568fc81bc9d80c45e9f371fbcaf924357b5c9b4b4fa0af948dcf7d65d-d /usr/lib/go-1.18/src/runtime/cgo/callbacks.go /usr/lib/go-1.18/src/runtime/cgo/callbacks_traceback.go /usr/lib/go-1.18/src/runtime/cgo/handle.go /usr/lib/go-1.18/src/runtime/cgo/iscgo.go /usr/lib/go-1.18/src/runtime/cgo/linux.go /usr/lib/go-1.18/src/runtime/cgo/mmap.go /usr/lib/go-1.18/src/runtime/cgo/setenv.go /usr/lib/go-1.18/src/runtime/cgo/sigaction.go /usr/lib/go-1.18/src/runtime/cgo/handle_test.go /usr/lib/go-1.18/src/runtime/cgo/cgo.go]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 go/packages.Load
+	snapshot=24
+	package="runtime/cgo.test"
+	files=[/home/nanxiong026/.cache/go-build/75/759ef0c0f21d0ce2c5187ba293401346237398309644f67921a53dbd355d1269-d]
+
+[Info  - 4:21:24 PM] 2022/05/07 16:21:24 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 4:21:55 PM] 2022/05/07 16:21:55 background imports cache refresh starting
+
+[Info  - 4:21:55 PM] 2022/05/07 16:21:55 background refresh finished after 4.499768ms
+
+[Info  - 4:28:01 PM] 2022/05/07 16:28:01 go/packages.Load
+	snapshot=25
+	package="around/model"
+	files=[/home/nanxiong026/go/src/around/model/model.go]
+
+[Info  - 4:28:01 PM] 2022/05/07 16:28:01 go/packages.Load
+	snapshot=25
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/model/model.go]
+	packages=1
+
+[Info  - 4:28:01 PM] 2022/05/07 16:28:01 go/packages.Load
+	snapshot=25
+	package="around/model"
+	files=[/home/nanxiong026/go/src/around/model/model.go]
+
+[Info  - 4:28:01 PM] 2022/05/07 16:28:01 go/packages.Load
+	snapshot=25
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/model/model.go]
+	packages=1
+
+[Info  - 4:38:28 PM] 2022/05/07 16:38:28 go/packages.Load
+	snapshot=27
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/model/model.go]
+	packages=1
+
+[Info  - 4:38:28 PM] 2022/05/07 16:38:28 go/packages.Load
+	snapshot=27
+	package="around/model"
+	files=[/home/nanxiong026/go/src/around/model/model.go]
+
+[Error - 4:38:28 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 4:38:28 PM] 2022/05/07 16:38:28 go/packages.Load
+	snapshot=27
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/model/model.go]
+	packages=1
+
+[Info  - 4:38:28 PM] 2022/05/07 16:38:28 go/packages.Load
+	snapshot=27
+	package="around/model"
+	files=[/home/nanxiong026/go/src/around/model/model.go]
+
+[Info  - 4:38:30 PM] 2022/05/07 16:38:30 reloadOrphanedFiles reloading
+	query=[file:///home/nanxiong026/.vscode-server/data/User/History/1f38b66c/D3Pa.go]
+
+[Info  - 4:38:30 PM] 2022/05/07 16:38:30 go/packages.Load
+	snapshot=30
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/.vscode-server/data/User/History/1f38b66c/D3Pa.go]
+	packages=1
+
+[Info  - 4:38:30 PM] 2022/05/07 16:38:30 go/packages.Load
+	snapshot=30
+	package="command-line-arguments"
+	files=[/home/nanxiong026/.vscode-server/data/User/History/1f38b66c/D3Pa.go]
+
+[Info  - 4:38:58 PM] 2022/05/07 16:38:58 background imports cache refresh starting
+
+[Info  - 4:38:58 PM] 2022/05/07 16:38:58 background refresh finished after 4.085113ms
+
+[Info  - 4:50:50 PM] 2022/05/07 16:50:50 go/packages.Load
+	snapshot=32
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/handler/post.go]
+	packages=1
+
+[Info  - 4:50:50 PM] 2022/05/07 16:50:50 go/packages.Load
+	snapshot=32
+	package="around/handler"
+	files=[/home/nanxiong026/go/src/around/handler/post.go]
+
+[Info  - 4:50:50 PM] 2022/05/07 16:50:50 go/packages.Load
+	snapshot=32
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/handler/post.go]
+	packages=1
+
+[Info  - 4:50:50 PM] 2022/05/07 16:50:50 go/packages.Load
+	snapshot=32
+	package="around/handler"
+	files=[/home/nanxiong026/go/src/around/handler/post.go]
+
+[Info  - 4:50:58 PM] 2022/05/07 16:50:58 go/packages.Load
+	snapshot=33
+	package="around/handler"
+	files=[/home/nanxiong026/go/src/around/handler/post.go]
+
+[Info  - 4:50:58 PM] 2022/05/07 16:50:58 go/packages.Load
+	snapshot=33
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/handler/post.go]
+	packages=1
+
+[Info  - 4:50:58 PM] 2022/05/07 16:50:58 go/packages.Load
+	snapshot=33
+	package="around/handler"
+	files=[/home/nanxiong026/go/src/around/handler/post.go]
+
+[Info  - 4:50:58 PM] 2022/05/07 16:50:58 go/packages.Load
+	snapshot=33
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/go/src/around/handler/post.go]
+	packages=1
+
+[Error - 4:53:27 PM] 2022/05/07 16:53:27 imports fixes: AllImportsFixes: /home/nanxiong026/go/src/around/handler/post.go:22:1: expected declaration, found What (and 9 more errors)
+	file="/home/nanxiong026/go/src/around/handler/post.go"
+
+[Info  - 4:53:29 PM] 2022/05/07 16:53:29 reloadOrphanedFiles reloading
+	query=[file:///home/nanxiong026/.vscode-server/data/User/History/-939ba28/sQSo.go]
+
+[Info  - 4:53:29 PM] 2022/05/07 16:53:29 go/packages.Load
+	snapshot=39
+	directory=/home/nanxiong026/go/src/around
+	query=[file=/home/nanxiong026/.vscode-server/data/User/History/-939ba28/sQSo.go]
+	packages=1
+
+[Info  - 4:53:29 PM] 2022/05/07 16:53:29 go/packages.Load
+	snapshot=39
+	package="command-line-arguments"
+	files=[/home/nanxiong026/.vscode-server/data/User/History/-939ba28/sQSo.go]
+
+[Info  - 4:53:57 PM] 2022/05/07 16:53:57 background imports cache refresh starting
+
+[Info  - 4:53:57 PM] 2022/05/07 16:53:57 background refresh finished after 3.725421ms
+
+[Info  - 4:54:45 PM] 2022/05/07 16:54:45 background imports cache refresh starting
+
+[Info  - 4:54:45 PM] 2022/05/07 16:54:45 background refresh finished after 3.407719ms
+
+[Info  - 4:58:53 PM] 2022/05/07 16:58:53 background imports cache refresh starting
+
+[Info  - 4:58:53 PM] 2022/05/07 16:58:53 background refresh finished after 4.466917ms
+

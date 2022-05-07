@@ -1,0 +1,108 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:39107 (IPv4)
+Extension host agent listening on 39107
+
+[00:22:27] Extension host agent started.
+[00:22:27] Deleted from disk goplus.gop /home/nanxiong026/.vscode-server/extensions/goplus.gop-0.7.8
+[00:22:27] [127.0.0.1][774d770b][ManagementConnection] Unknown reconnection token (never seen).
+[16:12:47] [127.0.0.1][9dfb9973][ManagementConnection] New connection established.
+[16:12:47] [127.0.0.1][8580997a][ExtensionHostConnection] New connection established.
+[16:12:47] [127.0.0.1][8580997a][ExtensionHostConnection] <14323> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/bash" and args []
+[16:12:51] Getting Manifest... ms-vscode.js-debug-companion
+[16:12:51] Getting Manifest... golang.go
+[16:12:51] Installing extension: ms-vscode.js-debug-companion
+[16:12:51] Installing extension: golang.go
+[16:12:52] Downloaded extension: ms-vscode.js-debug-companion /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[16:12:52] Extracted extension to /home/nanxiong026/.vscode-server/extensions/.838a06b9-8a35-497e-bed1-42c24eab81ac: ms-vscode.js-debug-companion
+[16:12:52] Renamed to /home/nanxiong026/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[16:12:52] Extracting completed. ms-vscode.js-debug-companion
+[16:12:52] Extension installed successfully: ms-vscode.js-debug-companion
+[16:12:52] Downloaded extension: golang.go /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/golang.go-0.33.0
+[16:12:53] Extracted extension to /home/nanxiong026/.vscode-server/extensions/.5b43b54b-f861-4c19-bb23-8495aba7b2e7: golang.go
+[16:12:53] Renamed to /home/nanxiong026/.vscode-server/extensions/golang.go-0.33.0
+[16:12:53] Extracting completed. golang.go
+[16:12:53] Extension installed successfully: golang.go
+[16:48:48] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.
+[16:48:52] [127.0.0.1][9dfb9973][ManagementConnection] The client has reconnected.
+[16:48:52] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.
+[16:49:11] [127.0.0.1][9dfb9973][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap.js:1:370)
+    at process.emit (node:events:390:28)
+[16:49:13] [127.0.0.1][9dfb9973][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:49:13] [127.0.0.1][9dfb9973][ManagementConnection] The client has reconnected.
+[16:49:46] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.
+[16:50:09] [127.0.0.1][9dfb9973][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/out/bootstrap.js:1:370)
+    at process.emit (node:events:390:28)
+[16:50:14] [127.0.0.1][9dfb9973][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:50:14] [127.0.0.1][9dfb9973][ManagementConnection] The client has reconnected.
+[16:50:43] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.

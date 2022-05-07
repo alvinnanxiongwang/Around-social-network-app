@@ -1,0 +1,85 @@
+[2022-05-01 22:20:41.297] [remoteagent] [info] Extension host agent started.
+[2022-05-01 22:20:41.556] [remoteagent] [info] [127.0.0.1][c72935c4][ManagementConnection] New connection established.
+[2022-05-01 22:20:41.651] [remoteagent] [info] [127.0.0.1][3a44db96][ExtensionHostConnection] New connection established.
+[2022-05-01 22:20:41.658] [remoteagent] [info] [127.0.0.1][3a44db96][ExtensionHostConnection] <3007> Launched Extension Host Process.
+[2022-05-01 22:21:15.416] [remoteagent] [info] [127.0.0.1][c72935c4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-01 22:21:15.435] [remoteagent] [info] [127.0.0.1][3a44db96][ExtensionHostConnection] <3007> Extension Host Process exited with code: 0, signal: null.
+[2022-05-01 22:21:15.435] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-01 22:21:18.737] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-05-01 22:21:18.737] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-05-01 22:21:19.084] [remoteagent] [info] [127.0.0.1][9f6ee239][ManagementConnection] New connection established.
+[2022-05-01 22:21:19.236] [remoteagent] [info] [127.0.0.1][da9adeed][ExtensionHostConnection] New connection established.
+[2022-05-01 22:21:19.251] [remoteagent] [info] [127.0.0.1][da9adeed][ExtensionHostConnection] <3164> Launched Extension Host Process.
+[2022-05-01 22:22:44.235] [remoteagent] [info] [127.0.0.1][9f6ee239][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-01 22:22:44.259] [remoteagent] [info] [127.0.0.1][da9adeed][ExtensionHostConnection] <3164> Extension Host Process exited with code: 0, signal: null.
+[2022-05-01 22:22:44.259] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-05-01 22:22:44.259] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-01 22:22:47.834] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-05-01 22:22:47.834] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-05-01 22:22:48.193] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] New connection established.
+[2022-05-01 22:22:48.362] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] New connection established.
+[2022-05-01 22:22:48.373] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] <3324> Launched Extension Host Process.
+[2022-05-01 22:23:07.470] [remoteagent] [info] Getting Manifest... golang.go
+[2022-05-01 22:23:07.634] [remoteagent] [info] Installing extension: golang.go
+[2022-05-01 22:23:07.992] [remoteagent] [info] Downloaded extension: golang.go /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/golang.go-0.32.0
+[2022-05-01 22:23:08.108] [remoteagent] [info] Extracted extension to /home/nanxiong026/.vscode-server/extensions/.df7837b1-cf44-4803-bda4-207f7e7c955c: golang.go
+[2022-05-01 22:23:08.119] [remoteagent] [info] Renamed to /home/nanxiong026/.vscode-server/extensions/golang.go-0.32.0
+[2022-05-01 22:23:08.123] [remoteagent] [info] Extracting completed. golang.go
+[2022-05-01 22:23:08.123] [remoteagent] [info] Extension installed successfully: golang.go
+[2022-05-01 22:27:47.834] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-05-01 22:31:34.874] [remoteagent] [info] Uninstalling extension: golang.go
+[2022-05-01 22:31:35.214] [remoteagent] [info] Successfully uninstalled extension: golang.go
+[2022-05-01 22:31:44.892] [remoteagent] [info] Getting Manifest... golang.go
+[2022-05-01 22:31:44.970] [remoteagent] [info] Installing extension: golang.go
+[2022-05-01 22:31:45.253] [remoteagent] [info] Downloaded extension: golang.go /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/golang.go-0.32.0
+[2022-05-01 22:31:45.284] [remoteagent] [info] Removed the extension from uninstalled list: golang.go
+[2022-05-01 22:31:45.291] [remoteagent] [info] Extension installed successfully: golang.go
+[2022-05-01 22:34:30.859] [remoteagent] [info] Getting Manifest... goplus.gop
+[2022-05-01 22:34:31.338] [remoteagent] [info] Installing extension: goplus.gop
+[2022-05-01 22:34:32.914] [remoteagent] [info] Downloaded extension: goplus.gop /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/goplus.gop-0.7.8
+[2022-05-01 22:34:33.228] [remoteagent] [info] Extracted extension to /home/nanxiong026/.vscode-server/extensions/.5836588b-91ce-41ec-863b-b15dcd250078: goplus.gop
+[2022-05-01 22:34:33.235] [remoteagent] [info] Renamed to /home/nanxiong026/.vscode-server/extensions/goplus.gop-0.7.8
+[2022-05-01 22:34:33.236] [remoteagent] [info] Extracting completed. goplus.gop
+[2022-05-01 22:34:33.237] [remoteagent] [info] Extension installed successfully: goplus.gop
+[2022-05-01 22:42:26.000] [remoteagent] [info] Uninstalling extension: goplus.gop
+[2022-05-01 22:42:26.133] [remoteagent] [info] Detected extension removed from another source goplus.gop
+[2022-05-01 22:42:26.155] [remoteagent] [info] Successfully uninstalled extension: goplus.gop
+[2022-05-01 22:43:29.933] [remoteagent] [info] Uninstalling extension: golang.go
+[2022-05-01 22:43:30.029] [remoteagent] [info] Successfully uninstalled extension: golang.go
+[2022-05-01 22:43:32.936] [remoteagent] [info] Getting Manifest... golang.go
+[2022-05-01 22:43:33.535] [remoteagent] [info] Installing extension: golang.go
+[2022-05-01 22:43:33.751] [remoteagent] [info] Downloaded extension: golang.go /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/golang.go-0.32.0
+[2022-05-01 22:43:33.783] [remoteagent] [info] Removed the extension from uninstalled list: golang.go
+[2022-05-01 22:43:33.790] [remoteagent] [info] Extension installed successfully: golang.go
+[2022-05-01 22:45:06.160] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/nanxiong026)
+[2022-05-01 22:45:06.160] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-05-01 23:01:46.976] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] The client has reconnected.
+[2022-05-01 23:01:49.761] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has reconnected.
+[2022-05-01 23:01:50.799] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] The client has reconnected.
+[2022-05-01 23:02:31.816] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-01 23:02:34.001] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-01 23:02:34.002] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has reconnected.
+[2022-05-01 23:03:07.788] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] The client has reconnected.
+[2022-05-01 23:11:19.989] [remoteagent] [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-05-01 23:11:19.990] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-01 23:32:04.009] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-01 23:32:04.010] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has reconnected.
+[2022-05-01 23:32:38.537] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] The client has reconnected.
+[2022-05-01 23:40:53.026] [remoteagent] [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-05-01 23:40:53.026] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-01 23:48:31.600] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-01 23:48:31.601] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has reconnected.
+[2022-05-01 23:49:05.529] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] The client has reconnected.
+[2022-05-01 23:57:18.104] [remoteagent] [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-05-01 23:57:18.104] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-02 00:06:06.535] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-02 00:06:06.536] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has reconnected.
+[2022-05-02 00:11:06.892] [remoteagent] [info] [127.0.0.1][8287bee6][ExtensionHostConnection] <3324> Extension Host Process exited with code: 0, signal: null.
+[2022-05-02 00:11:06.892] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-02 00:14:07.042] [remoteagent] [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-05-02 00:14:07.043] [remoteagent] [info] [127.0.0.1][774d770b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-02 00:16:06.893] [remoteagent] [info] Last EH closed, shutting down

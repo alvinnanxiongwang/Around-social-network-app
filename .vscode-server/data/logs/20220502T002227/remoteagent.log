@@ -1,0 +1,31 @@
+[2022-05-02 00:22:27.458] [remoteagent] [info] Extension host agent started.
+[2022-05-02 00:22:27.770] [remoteagent] [info] Deleted from disk goplus.gop /home/nanxiong026/.vscode-server/extensions/goplus.gop-0.7.8
+[2022-05-02 00:22:27.916] [remoteagent] [error] [127.0.0.1][774d770b][ManagementConnection] Unknown reconnection token (never seen).
+[2022-05-07 16:12:47.031] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] New connection established.
+[2022-05-07 16:12:47.193] [remoteagent] [info] [127.0.0.1][8580997a][ExtensionHostConnection] New connection established.
+[2022-05-07 16:12:47.246] [remoteagent] [info] [127.0.0.1][8580997a][ExtensionHostConnection] <14323> Launched Extension Host Process.
+[2022-05-07 16:12:51.132] [remoteagent] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-07 16:12:51.133] [remoteagent] [info] Getting Manifest... golang.go
+[2022-05-07 16:12:51.281] [remoteagent] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-05-07 16:12:51.378] [remoteagent] [info] Installing extension: golang.go
+[2022-05-07 16:12:52.534] [remoteagent] [info] Downloaded extension: ms-vscode.js-debug-companion /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-05-07 16:12:52.623] [remoteagent] [info] Extracted extension to /home/nanxiong026/.vscode-server/extensions/.838a06b9-8a35-497e-bed1-42c24eab81ac: ms-vscode.js-debug-companion
+[2022-05-07 16:12:52.645] [remoteagent] [info] Renamed to /home/nanxiong026/.vscode-server/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-05-07 16:12:52.650] [remoteagent] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-05-07 16:12:52.662] [remoteagent] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-05-07 16:12:52.704] [remoteagent] [info] Downloaded extension: golang.go /home/nanxiong026/.vscode-server/data/CachedExtensionVSIXs/golang.go-0.33.0
+[2022-05-07 16:12:53.316] [remoteagent] [info] Extracted extension to /home/nanxiong026/.vscode-server/extensions/.5b43b54b-f861-4c19-bb23-8495aba7b2e7: golang.go
+[2022-05-07 16:12:53.336] [remoteagent] [info] Renamed to /home/nanxiong026/.vscode-server/extensions/golang.go-0.33.0
+[2022-05-07 16:12:53.340] [remoteagent] [info] Extracting completed. golang.go
+[2022-05-07 16:12:53.345] [remoteagent] [info] Extension installed successfully: golang.go
+[2022-05-07 16:48:48.662] [remoteagent] [info] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.
+[2022-05-07 16:48:52.088] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] The client has reconnected.
+[2022-05-07 16:48:52.906] [remoteagent] [info] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.
+[2022-05-07 16:49:11.803] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-07 16:49:13.666] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-07 16:49:13.667] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] The client has reconnected.
+[2022-05-07 16:49:46.136] [remoteagent] [info] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.
+[2022-05-07 16:50:09.611] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-07 16:50:14.247] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-05-07 16:50:14.248] [remoteagent] [info] [127.0.0.1][9dfb9973][ManagementConnection] The client has reconnected.
+[2022-05-07 16:50:43.844] [remoteagent] [info] [127.0.0.1][8580997a][ExtensionHostConnection] The client has reconnected.

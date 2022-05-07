@@ -1,0 +1,65 @@
+unable to locate "go" binary in GOROOT () or PATH (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)
+unable to locate "go" binary in GOROOT () or PATH (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)
+unable to locate "go" binary in GOROOT () or PATH (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)
+unable to locate "go" binary in GOROOT () or PATH (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)
+Starting linting the current package at /home/nanxiong026/go/src/around
+unable to locate "go" binary in GOROOT () or PATH (/home/nanxiong026/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin)
+Starting "go vet" under the folder /home/nanxiong026/go/src/around
+Starting building the current package at /home/nanxiong026/go/src/around
+Not able to determine import path of current package by using cwd: /home/nanxiong026/go/src/around and Go workspace: undefined
+Starting linting the current package at /home/nanxiong026/go/src/around
+Starting "go vet" under the folder /home/nanxiong026/go/src/around
+Starting building the current package at /home/nanxiong026/go/src/around
+Not able to determine import path of current package by using cwd: /home/nanxiong026/go/src/around and Go workspace: undefined
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gomdbOaQ/go-code-check .
+go: cannot find main module, but found .git/config in /home/nanxiong026
+	to create a module there, run:
+	cd ../../.. && go mod init
+
+
+Starting linting the current package at /home/nanxiong026/go/src/around
+Starting "go vet" under the folder /home/nanxiong026/go/src/around
+Starting building the current package at /home/nanxiong026/go/src/around
+Not able to determine import path of current package by using cwd: /home/nanxiong026/go/src/around and Go workspace: undefined
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gomdbOaQ/go-code-check .
+go: cannot find main module, but found .git/config in /home/nanxiong026
+	to create a module there, run:
+	cd ../../.. && go mod init
+
+
+Starting linting the current package at /home/nanxiong026/go/src/around
+Starting "go vet" under the folder /home/nanxiong026/go/src/around
+Starting building the current package at /home/nanxiong026/go/src/around
+Not able to determine import path of current package by using cwd: /home/nanxiong026/go/src/around and Go workspace: undefined
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gomdbOaQ/go-code-check .
+go: cannot find main module, but found .git/config in /home/nanxiong026
+	to create a module there, run:
+	cd ../../.. && go mod init
+
+
+Starting linting the current package at /home/nanxiong026/go/src/around
+Starting "go vet" under the folder /home/nanxiong026/go/src/around
+Starting building the current package at /home/nanxiong026/go/src/around
+Not able to determine import path of current package by using cwd: /home/nanxiong026/go/src/around and Go workspace: undefined
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go vet .
+
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gomdbOaQ/go-code-check .
+go: cannot find main module, but found .git/config in /home/nanxiong026
+	to create a module there, run:
+	cd ../../.. && go mod init
+
+
+Starting linting the current package at /home/nanxiong026/go/src/around
+Starting building the current package at /home/nanxiong026/go/src/around
+Starting "go vet" under the folder /home/nanxiong026/go/src/around
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go build -o /tmp/vscode-gomdbOaQ/go-code-check .
+
+/home/nanxiong026/go/src/around>Finished running tool: /usr/bin/go vet .
+
+Starting linting the current package at /home/nanxiong026/go/src/around
